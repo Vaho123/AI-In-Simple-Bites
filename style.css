@@ -1,0 +1,36 @@
+body{
+    font-family:century gothic; 
+    font-size:14;
+    background-color:#321637; 
+  
+  }
+  
+  h2{
+    top: 100px;
+    right: 10%;
+    width: 50;
+    color:yellow;
+    z-index:8;
+  }
+  
+ 
+  .video-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 10px;
+  }
+  
+  .video-item iframe {
+    width: 100%;
+    height: 150px;
+    border: 2px solid #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  
+  
+  
+  
+  
